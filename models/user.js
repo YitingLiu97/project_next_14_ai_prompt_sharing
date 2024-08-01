@@ -16,6 +16,6 @@ const UserSchema = new Schema({
   }
 });
 
-const User = models.User || model("User", UserSchema);// since the route is called all the time in nextJS 
+const User = models.User || model("User", UserSchema);
 
 export default User;
