@@ -1,6 +1,9 @@
-export default function Feed (){
+import React from "react";
 
+const Feed =()=>{
     return (
-    <p>Feed</p>
-);
+        <div> Feed</div>
+    )
 }
+
+export default Feed;
